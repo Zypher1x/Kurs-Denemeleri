@@ -6,7 +6,7 @@ x = False
 
 while x == False:
     print('Kayıt-Giriş-Çıkış')
-    işlem = input()
+    işlem = input().lower()
 
 
     if işlem == 'kayıt':
